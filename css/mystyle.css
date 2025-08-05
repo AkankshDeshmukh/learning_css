@@ -35,16 +35,19 @@ p{
  }
  .t_decoration_all{
     text-decoration: underline overline line-through;
- }
+ 
+   }
  .t_indend{
     text-indent: 150px;
  }
  .letter_space{
     letter-spacing: 10px;
  }
+
  .word_space{
     word-spacing: 20px;
  }
+
  .line_height{
     line-height: 50px;
  }
