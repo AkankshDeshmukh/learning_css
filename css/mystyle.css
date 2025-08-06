@@ -51,3 +51,76 @@ p{
  .line_height{
     line-height: 50px;
  }
+
+ .t_shadow{
+   font-size:  80px;
+   text-align: center;
+   color: red;
+   text-shadow:black;
+
+ }
+
+ .b_shadow{
+   box-shadow: rgba(0, 128, 0, 0.685);
+   width:250px;
+ }
+
+ .d_shadow{
+   box-shadow: red;
+   width:500px;
+ }
+
+ #t.color{
+   color: brown;
+
+ }
+ #t_size{
+   color: aqua;
+ }
+
+.t_color{
+  color: limegreen;
+}
+.t_size{
+   font-size: 60px;
+}
+
+.t_bg{
+   background-color: blueviolet;
+}
+
+.t_center{
+   text-align: center;
+}
+
+.f_family1{
+   font-family: sans-serif;
+   font-style: oblique;
+}
+.f_family2{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-style: italic;
+}
+
+.f_family3{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.f_family4{
+   font-family: serif;
+   font-style: unset;
+}
+
+.f_family5{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*solid,deashes,dotted,double,inset,outset*/
+
+.b_prop2{
+   border: 5px double gold;
+}
+
+.b_prop1{
+   border: 5px dashed red;
+}
