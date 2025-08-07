@@ -56,17 +56,17 @@ p{
    font-size:  80px;
    text-align: center;
    color: red;
-   text-shadow:black;
+   text-shadow:6px 6px 8px  rgba(0, 0, 0, 0.829);
 
  }
 
  .b_shadow{
-   box-shadow: rgba(0, 128, 0, 0.685);
+   box-shadow: 3px 3px 5px red;
    width:250px;
  }
 
  .d_shadow{
-   box-shadow: red;
+   box-shadow:4px 4px 3px purple;
    width:500px;
  }
 
@@ -123,4 +123,100 @@ p{
 
 .b_prop1{
    border: 5px dashed red;
+}
+
+.b_prop2{
+   /* width: 250px;
+   border:6px double blue;
+   border-top-left-radius: 50px;
+   border-bottom-right-radius: 20px;
+   border-bottom-right-radius: 50px;
+   border-bottom-left-radius: 20px; */
+
+   border-radius: 50px 20px 50px 20px;
+   border-color: brown yellow green pink;
+}
+
+.d_prop3{
+   width: 250px;
+  border:6px double blue;
+   border-top-left-radius: 50px;
+   border-bottom-right-radius: 20px;
+   border-bottom-right-radius: 50px;
+   border-bottom-left-radius: 20px;  
+    /* border-radius: 50px 20px 50px 20px;  */
+    border-color: brown yellow green pink;
+}
+
+.box_model_1{
+   border: 4px solid red;
+   padding: 30px;
+   margin: 60px;
+}
+
+.box_model_2{
+border: 4px solid yellow;
+   padding: 30px;
+   margin: 60px;
+}
+
+.box_model_3{
+border: 4px solid blue;
+   padding: 30px;
+   margin: 60px;
+}
+
+.box_model_4{
+border: 4px solid green;
+   padding: 30px 50px 60px;
+   margin: 20px 40px 50px60px;
+}
+
+.b_prop_5{
+   width:250px ;
+   border: 4px double yellowgreen ;
+   padding:  30px;
+   margin: 60px;
+   border-radius: 20px;
+   margin-left: 60px;
+}
+.d_prop3
+{
+    width:250px ;
+   border: 4px double red ;
+   padding:  30px;
+   margin: 60px;
+   border-radius: 20px;
+   margin-left: 60px;
+}
+
+.linear1{
+   height: 400px;
+   background: linear-gradient(to right,red ,orange,yellow,green,blue,indigo,violet);
+}
+.heading1{
+   text-align: center;
+   padding-top: 20px;
+   color: black;
+}
+
+.linear2{
+   height: 400px;
+   background: linear-gradient(orange,white,green);
+}
+.heading2{
+   text-align: center;
+   padding-top: 20px;
+   color: black;
+}
+
+.radial{
+   height: 800px;
+   background: radial-gradient(circle,yellow,red,green,blue);
+   border-radius: 50%;
+}
+
+.conic{
+   height: 200px;
+   background:conic-gradient(from 90deg ,red,green,yellow,orange,purple);
 }
